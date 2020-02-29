@@ -3,6 +3,10 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const fs = require('fs');
 
+client.on('ready', () => {
+    console.log(`Je suis connécter youpi!`);
+  });
+
 fs.readdir('./Commandes/', (error, f) => {
     if (error) { return console.error(error); }
         let commandes = f.filter(f => f.split('.').pop() === 'js');
@@ -26,4 +30,4 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login('token');
+client.login(process.env.TOKEN);

@@ -1,11 +1,11 @@
 {
   "name": "tuto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bienvenue sur le projet !",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "fs": "^0.0.1-security",
+    "fs": "0.0.1-security",
     "moment": "^2.24.0"
   },
   "devDependencies": {},
@@ -13,5 +13,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor2106/Tuto-Youtube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Victor2106/Tuto-Youtube/issues"
+  },
+  "homepage": "https://github.com/Victor2106/Tuto-Youtube#readme"
 }
